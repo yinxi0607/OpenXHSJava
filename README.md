@@ -1,4 +1,4 @@
-在安卓上使用opencv进行模板匹配 参考
+在安卓上使用opencv进行模板匹配参考
 
 
 https://www.cnblogs.com/yunfang/p/6149831.html
