@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingLeft="16dp"
+android:paddingRight="16dp"
+android:paddingTop="16dp"
+android:paddingBottom="16dp"
+tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img_huaishi"
+        android:layout_width="138dp"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="17dp" />
+
+    <Button
+        android:id="@+id/btn_gray_process"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="245dp"
+        android:layout_marginTop="0dp"
+        android:text="灰度化" />
+
+    <Button
+        android:id="@+id/btn_match"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btn_gray_process"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="33dp"
+        android:text="Button" />"
+</RelativeLayout>
